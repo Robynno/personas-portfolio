@@ -1,0 +1,65 @@
+project-detail h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 7rem;
+  color: #e0a800;
+  margin-bottom: 0.5rem;
+}
+.project-detail h3 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #e0a800;
+}
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.empathy-map {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.empathy-map .quadrant {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+}
+.storyboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.storyboard figure {
+  text-align: center;
+}
+.storyboard img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Questions Grid */
+.questions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.questions-grid h4 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--accent-blue);
+  margin-bottom: 0.5rem;
+}
+.questions-grid ul {
+  list-style: disc inside;
+  color: #555;
+  line-height: 1.5;
+}
+.reflection h4 {
+  color: var(--accent-blue);
+  font-family: var(--font-heading);
+  font-size: large;
+}
